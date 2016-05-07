@@ -1,0 +1,68 @@
+#container{
+	width: 100%;
+	background: #fefdf0;
+}
+
+header{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+h1{
+	font-family: Duo-Line;
+	font-size: 100px;
+	color: #56300d;
+	letter-spacing: 1.5px;
+	text-align: center;
+
+}
+
+.italic{
+	font-style: italic;
+}
+
+
+
+#game-box{
+	box-sizing: border-box;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid #acbf26;
+	height: 400px;
+	background: #fafbf3;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 200px;
+	outline: #038384 solid 5px;
+
+}
+
+#start-text{
+	color: #f05a28;
+	font-variant: small-caps;
+	text-align: center;
+}
+
+#score-box{
+	width: 40%;
+	border-top: 5px solid #56300d;  
+	border-left: 5px solid #56300d;  
+	border-bottom: 5px solid #56300d;
+	float: left;
+	height: 100%;
+	box-sizing: border-box;
+	background-image: src("assets/images/lighter.jpg");
+}
+
+#play-box{
+	width: 60%;
+	float: right;
+	border-top: 5px solid #56300d;
+	border-right: 5px solid #56300d;
+	border-bottom: 5px solid #56300d;
+	height: 100%;
+	box-sizing: border-box;
+}
