@@ -19,9 +19,27 @@
 
 		<section id="game-box">
 			<div id="score-box">
+				<div id="display-score">
+					<div id="wins">
+					</div>
+					<div id="losses">
+					</div>
+					<div id="music-button">
+						<audio id="moon-song" src="moon.mp3"></audio>
+						<button onclick="playMusic()" id="start-song">play music</button>
+					</div>
+				</div>
 			</div>
 			<div id="play-box">
-				<p id="start-text">press any button to continue</p>
+				<div id="instruction-box">
+					<p id="start-text">press any button to continue</p>
+				</div>
+				<div id="array-box">
+				</div>
+				<div id="remaining-guesses">
+				</div>
+				<div id="letters-guessed-box">
+				</div>
 			</div>
 		</section>
 
@@ -30,5 +48,6 @@
 	</footer>
 
 </div>
+<script type="text/javascript" src="assets/javascript/main.js"></script>
 </body>
 </html>
