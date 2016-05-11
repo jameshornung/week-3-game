@@ -51,7 +51,7 @@ function checkLetter(letter)
 			isInWord = false;
 		}
 	}
-	if(isInWord == false && )
+	if(isInWord === false)
 	{
 		wrongLetters.push(letter);
 		remainingGuesses = remainingGuesses - 1;
