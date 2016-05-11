@@ -9,7 +9,7 @@ var valid;
 var wins = 0;
 var losses = 0;
 var remainingGuesses = 10;
-var letterGuessed;
+// var letterGuessed;
 
 //functions
 
@@ -34,6 +34,7 @@ function startGame()
 }
 
 //checks to see if letter entered by user is in the target word
+
 function checkLetter(letter)
 {
 	var isInWord;
@@ -50,7 +51,7 @@ function checkLetter(letter)
 			isInWord = false;
 		}
 	}
-	if(isInWord == false)
+	if(isInWord == false && )
 	{
 		wrongLetters.push(letter);
 		remainingGuesses = remainingGuesses - 1;
