@@ -1,11 +1,12 @@
 @font-face{
 	font-family: duoline;
-	src: url('duoline.ttf');
+	src: url("../duo.ttf");
 }
 
 #container{
 	width: 100%;
 	background: #fefdf0;
+	height: 100%;
 }
 
 header{
@@ -17,7 +18,7 @@ header{
 }
 
 h1{
-	font-family: DUO-LINE;
+	font-family: duoline;
 	font-size: 100px;
 	color: #56300d;
 	letter-spacing: 1.5px;
@@ -42,8 +43,10 @@ h1{
 	height: 400px;
 	background: #fafbf3;
 	font-family: 'Lato', sans-serif;
+	color: color: #f05a28;
 	margin-bottom: 100px;
 	outline: #038384 solid 5px;
+
 
 }
 
@@ -54,6 +57,7 @@ h1{
 }
 
 #score-box{
+	position: relative;
 	width: 40%;
 	border-top: 5px solid #56300d;  
 	border-left: 5px solid #56300d;  
@@ -102,30 +106,43 @@ h1{
 	width: 100%;
 	box-sizing: border-box;
 	height: 25%;
+	font-family: 'Lato', sans-serif;
+	color: #f05a28; 
+	text-align: center;
 }
 
 #array-box{
 	width: 100%;
 	box-sizing: border-box;
 	height: 25%;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	color: #f05a28;
+	font-weight: bold;
 }
 
 #remaining-guesses{
 	width: 100%;
 	box-sizing: border-box;
 	height: 25%;
+	font-family: 'Lato', sans-serif;
+	color: #f05a28;
+	font-weight: bold;
 }
 
 #letters-guessed-box{
 	width: 100%;
 	box-sizing: border-box;
 	height: 25%;
+	font-family: 'Lato', sans-serif;
+	color: #f05a28;
+	font-weight: bold;
 }
 
 
 #start-song{
 	background: #56300d;
-	font-family: DUO-LINE;
+	font-family: duoline;
 	color: #fafbf3;
 	text-align: center;
 	width: 55%;
@@ -137,8 +154,9 @@ h1{
 }
 
 #music-button{
-	position: relative;
-	bottom: -65%;
+	position: absolute;
+	bottom: 20px;
+	width: 65%;
 }
 
 
